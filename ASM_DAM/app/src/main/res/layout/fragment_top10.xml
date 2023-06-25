@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lnFgTop"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lnGC"
+        android:layout_margin="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:id="@+id/tvNo"
+            android:background="@drawable/boder_black_gray"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_weight="5"
+            android:textSize="20dp"
+            android:text="Top"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boder_black_gray"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_weight="2"
+            android:id="@+id/tvTenSachTop"
+            android:textSize="20dp"
+            android:text="Tên sách"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@drawable/boder_black_gray"
+            android:gravity="center"
+            android:id="@+id/tvSoluongMuon"
+            android:layout_weight="4"
+            android:textSize="20dp"
+            android:text="Số lượng"/>
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:id="@+id/lvTop"/>
+
+</LinearLayout>

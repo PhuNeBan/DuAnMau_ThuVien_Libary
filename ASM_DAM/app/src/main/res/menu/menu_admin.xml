@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view" >
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/fgPhieuMuon"
+            android:title="Quản lý phiếu mượn"
+            android:icon="@drawable/phieumuon"/>
+        <item android:id="@+id/fgLoaiSach"
+            android:title="Quản lý loại sách"
+            android:icon="@drawable/loaisach"/>
+        <item android:id="@+id/fgSach"
+            android:title="Quản lý sách"
+            android:icon="@drawable/qlsach"/>
+        <item android:id="@+id/fgThanhVien"
+            android:title="Quản lý thành viên"
+            android:icon="@drawable/thanhvien"/>
+        <item android:title=" \Thống kê">
+            <menu>
+                <item android:id="@+id/fgDoanhThu"
+                    android:title="Doanh thu"
+                    android:icon="@drawable/doanhthu"/>
+                <item android:id="@+id/fgTop"
+                    android:title="Top 10 sách mượn nhiều nhất"
+                    android:icon="@drawable/top"/>
+            </menu>
+        </item>
+        <item android:title="Người dùng">
+            <menu>
+                <item android:id="@+id/fgThemNguoiDung"
+                    android:title="Thêm người dùng"
+                    android:visible="false"
+                    android:icon="@drawable/themnguoidung"/>
+                <item android:id="@+id/fgDoiMatKhau"
+                    android:title="Đổi mật khẩu"
+                    android:icon="@drawable/key"/>
+                <item android:id="@+id/fgDangXuat"
+                    android:title="Đăng xuất"
+                    android:icon="@drawable/logout"/>
+
+            </menu>
+        </item>
+    </group>
+</menu>

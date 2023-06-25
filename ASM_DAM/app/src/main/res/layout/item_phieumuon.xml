@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="30dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearPhieuMuon"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvMaPhieu"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:text="Mã phiếu: 1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvNgayMuon"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:text="Ngày: 22/10/2022"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvThanhVienMuon"
+                android:gravity="start"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:text="Tên: Lê Văn A"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvSachMuon"
+                android:gravity="start"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:text="Tên sách: Java"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTienMuon"
+                android:gravity="start"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:text="Tiền: 10000đ"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTrangThaiMuon"
+                android:gravity="start"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:text="Trạng thái: Đã trả"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="30dp"
+            android:id="@+id/tvXoaPhieuMuon"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:background="@drawable/form_phieumuon_right"
+            android:text="X" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

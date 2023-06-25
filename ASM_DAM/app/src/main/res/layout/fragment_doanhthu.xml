@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lnHienDay"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtTuNgay"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/boder_black"
+            android:layout_weight="1"
+            android:enabled="false"/>
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="0dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtDenNgay"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:padding="5dp"
+            android:background="@drawable/boder_black"
+            android:layout_weight="1"
+            android:enabled="false"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/lnbtn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Từ ngày"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:id="@+id/btnTuNgay"/>
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="0dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đến ngày"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:id="@+id/btnDenNgay"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnGetDoanhThu"
+            android:text="Doanh Thu"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doanh thu: "
+        android:id="@+id/tvDoanhThu"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="20dp"/>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/gray">
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:id="@+id/tvTop"
+            android:textColor="@color/black"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:layout_weight="5"
+            android:text="1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/tvTenTop"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_weight="2"
+            android:text="Android căn bản"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tvSoLuong"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_weight="4"
+            android:textSize="20dp"
+            android:text="100"/>
+    </LinearLayout>
+</LinearLayout>

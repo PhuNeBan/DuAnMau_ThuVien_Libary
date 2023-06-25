@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/drawable/background_item_thanhvien.xml" value="0.168" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/drawable/boder_black.xml" value="0.12" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/drawable/boder_black_gray.xml" value="0.168" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/drawable/btn_login.xml" value="0.11" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/drawable/btn_sua_thanhvien.xml" value="0.12" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/drawable/delete_thanhvien.xml" value="0.168" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/drawable/form_edt.xml" value="0.11" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/drawable/form_edt_left.xml" value="0.11" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/drawable/form_phieumuon.xml" value="0.1135" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/drawable/form_phieumuon_left.xml" value="0.1135" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/drawable/form_phieumuon_left_0.xml" value="0.1135" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/drawable/form_phieumuon_right.xml" value="0.1135" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/activity_admin.xml" value="0.16111111111111112" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/activity_man_hinh_chao.xml" value="0.22447916666666667" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/activity_thu_thu.xml" value="0.21041666666666667" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/dialog_loai_sach.xml" value="0.203125" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/dialog_phieu_muon.xml" value="0.20416666666666666" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/dialog_sach.xml" value="0.203125" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/dialog_sua_phieu_muon.xml" value="0.20416666666666666" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/dialog_thanh_vien.xml" value="0.20416666666666666" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/dialog_them_thanh_vien.xml" value="0.2" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/fragment_doanhthu.xml" value="0.20416666666666666" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/fragment_doimatkhau.xml" value="0.21" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/fragment_quanliphieumuon.xml" value="0.203125" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/fragment_quanlyloaisach.xml" value="0.22" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/fragment_quanlysach.xml" value="0.20416666666666666" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/fragment_quanlythanhvien.xml" value="0.22" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/fragment_themthanhvien.xml" value="0.25" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/fragment_top10.xml" value="0.25" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/header_admin.xml" value="0.22447916666666667" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/header_layout.xml" value="0.22447916666666667" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/header_thuthu.xml" value="0.22447916666666667" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/item_loaisach.xml" value="0.2" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/item_phieumuon.xml" value="0.22" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/item_sach.xml" value="0.22" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/item_thanhvien.xml" value="0.22" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/item_top.xml" value="0.20416666666666666" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/layout/toolbar.xml" value="0.22447916666666667" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/menu/menu_admin.xml" value="0.22447916666666667" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/menu/menu_thuthu.xml" value="0.1700356718192628" />
+        <entry key="..\:/DuAnMau/ASM_DAM/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.11" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

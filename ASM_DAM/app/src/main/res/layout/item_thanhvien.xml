@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_item_thanhvien"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="end">
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/delete_thanhvien"
+                android:id="@+id/tvXoaThanhVien"
+                android:gravity="center"
+                android:text="X"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/account" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:id="@+id/tvMaThanhVien"
+            android:textColor="@color/black"
+            android:text="Mã thành viên: 1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:id="@+id/tvTenThanhVien"
+            android:textColor="@color/black"
+            android:text="Nguyễn Văn A"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/tvNamSinh"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:text="Năm sinh: 2003"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:id="@+id/tvSuaThanhVien"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/btn_sua_thanhvien"
+            android:textColor="@color/black"
+            android:text="Sửa"/>
+    </LinearLayout>
+
+</LinearLayout>
